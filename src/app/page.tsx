@@ -1,6 +1,9 @@
 export default function Home() {
   return (
-    <div className="flex items-center flex-col p-8 text-center bg-indigo-50 h-screen dark:bg-indigo-950 dark:text-indigo-50">
+    <div
+      className="flex items-center flex-col p-8 text-center bg-indigo-50 h-screen dark:bg-indigo-950
+     dark:text-indigo-50"
+    >
       <div className="max-w-2xl">
         <h1 className="font-bold text-3xl sm:text-5xl lg:text-6xl">
           Rapidly build modern websites without ever leaving your HTML.
