@@ -11,10 +11,12 @@ export function Profile() {
       />
 
       <div className="flex flex-col">
-        <span className="text-sm font-semibold text-zinc-700">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
           João Gabriel
         </span>
-        <span className="text-sm text-zinc-700">jgomachado@hotmail.com</span>
+        <span className="text-sm text-zinc-700 dark:text-zinc-400">
+          jgomachado@hotmail.com
+        </span>
       </div>
 
       <Button variant="ghost" type="button">
